@@ -9,5 +9,5 @@ else if (operacion === 'leer') {
   leer();
 }
 else{
-    console.log('Operacion no reconocida!');
+    console.log('Operación no reconocida!');
 }
