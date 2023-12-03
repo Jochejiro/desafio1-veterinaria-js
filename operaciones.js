@@ -6,7 +6,7 @@ const registrar = (nombre, edad, animal, color, enfermedad) => {
   const citas = citasJson();
   citas.push({ nombre, edad, animal, color, enfermedad });
   fs.writeFileSync('citas.json', JSON.stringify(citas));
-  console.log('Cita registrada!');
+  console.log(`Cita registrada para: ${nombre}`);
 };
 
 const leer = () => {
